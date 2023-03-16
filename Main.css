@@ -68,48 +68,51 @@ h5, p {
     bottom: 0;
 }
 
+
 .buttons #place_1 {
+    display: inline-block;
     margin-top: 800px;
     margin-left: 150px;
-    float: left;
     text-align: center;
     padding: 120px 120px;
 }
 
 .buttons #place_2 {
+    display: inline-block;
     margin-top: 800px;
-    margin-left: 200px;
+    margin-left: 150px;
     text-align: center;
     padding: 120px 120px;
 }
 
 .buttons #place_3 {
+    display: inline-block;
     margin-top: 800px;
     margin-left: 150px;
-    float: right;
     text-align: center;
     padding: 120px 120px;
 }
 
 .buttons #place_4 {
+    display: inline-block;
     margin-top: 50px;
     margin-left: 150px;
-    float: left;
     text-align: center;
     padding: 120px 120px;
 }
 
 .buttons #place_5 {
+    display: inline-block;
     margin-top: 50px;
-    margin-left: 200px;
+    margin-left: 150px;
     text-align: center;
     padding: 120px 120px;
 }
 
 .buttons #place_6 {
+    display: inline-block;
     margin-top: 50px;
-    margin-right: 293px;
-    float: right;
+    margin-left: 150px;
     text-align: center;
     padding: 120px 120px;
 }
