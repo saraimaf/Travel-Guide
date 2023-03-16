@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+/*nav bar*/
+#nav_bar {
+    float: right;
+}
+
+#nav_bar li {
+    display: inline-block;
+    padding: 8px;
+}
+
+#nav-links {
+    color: #404040;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li.nav-links a:hover {
+    box-shadow: 1px 1px 5px #999;
+}
+
+.travel-guide #logo {
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+}
+
+.buttons {}
+
+.buttons #place_1 {
+    margin-top: 800px;
+    margin-left: 150px;
+    float: left;
+    text-align: center;
+    padding: 120px 120px;
+}
+
+.buttons #place_2 {
+    margin-top: 800px;
+    margin-left: 200px;
+    text-align: center;
+    padding: 120px 120px;
+}
+
+.buttons #place_3 {
+    margin-top: 800px;
+    margin-left: 150px;
+    float: right;
+    text-align: center;
+    padding: 120px 120px;
+}
+
+.buttons #place_4 {
+    margin-top: 50px;
+    margin-left: 150px;
+    float: left;
+    text-align: center;
+    padding: 120px 120px;
+}
+
+.buttons #place_5 {
+    margin-top: 50px;
+    margin-left: 200px;
+    text-align: center;
+    padding: 120px 120px;
+}
+
+.buttons #place_6 {
+    margin-top: 50px;
+    margin-right: 293px;
+    float: right;
+    text-align: center;
+    padding: 120px 120px;
+}
+
+/* just adding some styling to make the carousel more depressing */
+#carouselExampleIndicators {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    height: 70%;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h5, p {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* placing carousel captions at the very bottom of the image */
+.carousel-caption {
+    bottom: 0;
+}
+
+
+
