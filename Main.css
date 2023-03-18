@@ -68,55 +68,136 @@ h5, p {
     bottom: 0;
 }
 
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
 
 .buttons #place_1 {
     display: inline-block;
+    color: #000000;
+    font-size: x-large;
     margin-top: 800px;
-    margin-left: 150px;
+    margin-left: 50px;
     text-align: center;
     padding: 120px 120px;
+    background-image: url(/city\ break.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .buttons #place_2 {
     display: inline-block;
+    color: #000000;
+    font-size: x-large;
     margin-top: 800px;
-    margin-left: 150px;
+    margin-left: 50px;
     text-align: center;
     padding: 120px 120px;
+    background-image: url(/beach\ break.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .buttons #place_3 {
     display: inline-block;
+    color: #000000;
+    font-size: x-large;
     margin-top: 800px;
-    margin-left: 150px;
+    margin-left: 50px;
     text-align: center;
     padding: 120px 120px;
+    background-image: url(/family\ friendly.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .buttons #place_4 {
     display: inline-block;
+    color: #000000;
+    font-size: x-large;
     margin-top: 50px;
-    margin-left: 150px;
+    margin-left: 50px;
     text-align: center;
     padding: 120px 120px;
+    background-image: url(/tourist\ atttractions.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .buttons #place_5 {
     display: inline-block;
+    color: #000000;
+    font-size: x-large;
     margin-top: 50px;
-    margin-left: 150px;
+    margin-left: 50px;
     text-align: center;
     padding: 120px 120px;
+    background-image: url(/group\ holidays.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .buttons #place_6 {
     display: inline-block;
+    color: #000000;
+    font-size: x-large;
+    text-decoration: solid;
     margin-top: 50px;
-    margin-left: 150px;
+    margin-left: 50px;
     text-align: center;
     padding: 120px 120px;
+    margin-bottom: 50px;
+    background-image: url(/skiing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.form {
+    text-align: left;
+}
 
+.form-search {
+    width: 600px;
+    line-height: 40px;
+    padding: 20px 10px;
+}
 
+.form #form-search {
+    padding: 0px;
+}
 
+footer {
+    
+    border-top: solid 2px #000000;
+    border-bottom: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+#socials {
+    float: right; 
+}
+
+footer li {
+    display: inline-block;
+}
+
+#footer ul li {
+    display: inline;
+    font-size: 14px;
+    padding: 13px;
+}
+
+footer ul {
+    float: right;
+    padding: 1px;
+}
+
+footer ul a:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    text-align: center;
+    font-style: italic;
+}

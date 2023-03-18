@@ -15,11 +15,11 @@
                 <div class="travel-guide">
                     <a href="#" id="logo"> <img src="googlelogo.png" alt="logo"></a>
                 </div>
-                <ul id="nav_bar">
-                    <li class="nav-links" id="Home"><a href="#">Home</a></li>
-                    <li class="nav-links" id="About"><a href="#">About</a></li>
-                    <li class="nav-links" id="Contact"><a href="#">Contact</a></li>
-                    <li class="nav-links" id="Places"><a href="#">Places</a></li>
+                <ul class="nav-links" id="nav_bar">
+                    <li id="Home"><a href="#">Home</a></li>
+                    <li id="About"><a href="#">About</a></li>
+                    <li id="Contact"><a href="#">Contact</a></li>
+                    <li id="Places"><a href="#">Places</a></li>
                 </ul>
             </nav>
 
@@ -31,23 +31,23 @@
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="" class="d-block w-100" alt="Image" width="650" height="650">
+                    <img src="italy.jpg" class="d-block w-100" alt="Image1" width="650" height="650">
                     <div id="image1-1-info" class="carousel-caption d-none d-md-block">
-                        <h5>Location 1</h5>
+                        <h5>Venice, Italy</h5>
                         <p>Caption</p>
                       </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="" class="d-block w-100" alt="Image" width="650" height="650">
+                    <img src="iceland.jpg" class="d-block w-100" alt="Image2" width="650" height="650">
                     <div id="image2-2-info" class="carousel-caption d-none d-md-block">
-                        <h5>Location 2</h5>
+                        <h5>Reykjavik, Iceland</h5>
                         <p>Caption</p>
                       </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="" class="d-block w-100" alt="Image" width="650" height="650">
+                    <img src="greece.jpg" class="d-block w-100" alt="Image3" width="650" height="650">
                     <div id="image3-3-info" class="carousel-caption d-none d-md-block">
-                        <h5>Location 3</h5>
+                        <h5>Santorini, Greece</h5>
                         <p>Caption</p>
                       </div>
                   </div>
@@ -72,14 +72,14 @@
 
     <body>   
         <div class="buttons">
-            <input type="submit" value="Place 1" id="place_1">
-            <input type="submit" value="Place 2" id="place_2">
-            <input type="submit" value="Place 3" id="place_3">
+            <input type="button" value="City Break" id="place_1" >
+            <input type="button" value="Beach Break" id="place_2">
+            <input type="button" value="Family Friendly" id="place_3">
         </div>
-        <div class="buttons">
-            <input type="submit" value="Place 4" id="place_4">
-            <input type="submit" value="Place 5" id="place_5">
-            <input type="submit" value="Place 6" id="place_6">
+       <div class="buttons">
+            <input type="button" value="Tourist Attractions" id="place_4">
+            <input type="button" value="Group Holidays" id="place_5">
+            <input type="button" value="Skiing" id="place_6">
         </div>
         
     </body>
@@ -88,14 +88,15 @@
         <div class="form">
             <form>
                 <label for="form-search"></label>
-                <input type="text" id="form-search" placeholder="Search for a destination e.g. Cyprus">
+                <input type="text" id="form-search" placeholder="Search for a destination">
             </form>
         </div>
 
-        <div class="socials">
-            <a href="#" id="twitter"><img src="" alt="twitter logo"> </a>
-            <a href="#" id="instagram"><img src="" alt="instagram logo"> </a>
-            <a href="#" id="tiktok"><img src="" alt="tiktok logo"> </a>
-        </div>
+        <h3>More destinations coming soon...</h3>
+        <ul id="socials">
+            <li id="twitter"><a href="#"><img src="twitter logo.png" alt="twitter logo" width="80px" height="80px"></a></li>
+            <li id="instagram"><a href="#"><img src="instagram logo.jpg" alt="instagram logo" width="80px" height="80px"></a></li>
+            <li id="tiktok"><a href="#"><img src="tiktok logo.png" alt="tiktok logo" width="80px" height="80px"></a></li>
+        </ul>
     </footer>
 </html>
