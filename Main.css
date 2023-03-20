@@ -2,6 +2,15 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    background-color: #186618;
+}
+
+header {
+    background-color: #1DD1F5;
+}
+
+nav {
+    background-color: #337FEA;
 }
 
 ul {
@@ -19,7 +28,7 @@ ul {
 }
 
 #nav-links {
-    color: #404040;
+    color: #000;
 }
 
 a {
@@ -28,7 +37,7 @@ a {
 }
 
 li.nav-links a:hover {
-    box-shadow: 1px 1px 5px #999;
+    text-decoration: underline;
 }
 
 .travel-guide #logo {
@@ -178,6 +187,9 @@ footer {
     float: right; 
 }
 
+footer {
+    background-color: #91D7F2;
+}
 footer li {
     display: inline-block;
 }
