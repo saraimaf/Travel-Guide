@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #186618;
+    background-color: #1DD1F5;
 }
 
 header {
@@ -15,11 +15,14 @@ nav {
 
 ul {
     list-style: none;
+    color: #000000;
 }
 
 /*nav bar*/
 #nav_bar {
     float: right;
+    text-decoration-color: #ffffff;
+    text-decoration: none;
 }
 
 #nav_bar li {
@@ -37,7 +40,11 @@ a {
 }
 
 li.nav-links a:hover {
-    text-decoration: underline;
+    text-decoration: solid;
+}
+
+#Places {
+    color: #000;
 }
 
 .travel-guide #logo {
@@ -89,7 +96,6 @@ img:hover {
     margin-left: 50px;
     text-align: center;
     padding: 120px 120px;
-    background-image: url(/city\ break.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -102,7 +108,6 @@ img:hover {
     margin-left: 50px;
     text-align: center;
     padding: 120px 120px;
-    background-image: url(/beach\ break.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -115,7 +120,6 @@ img:hover {
     margin-left: 50px;
     text-align: center;
     padding: 120px 120px;
-    background-image: url(/family\ friendly.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -128,7 +132,6 @@ img:hover {
     margin-left: 50px;
     text-align: center;
     padding: 120px 120px;
-    background-image: url(/tourist\ atttractions.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -141,7 +144,6 @@ img:hover {
     margin-left: 50px;
     text-align: center;
     padding: 120px 120px;
-    background-image: url(/group\ holidays.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -156,7 +158,6 @@ img:hover {
     text-align: center;
     padding: 120px 120px;
     margin-bottom: 50px;
-    background-image: url(/skiing.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
