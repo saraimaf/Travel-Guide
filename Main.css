@@ -52,84 +52,21 @@ img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
-.buttons #place_1 {
-    display: inline-block;
-    color: #000000;
-    font-size: x-large;
+.buttons {
+    width: 300px;
+    height: 300px;
     margin-top: 800px;
-    margin-left: 50px;
-    text-align: center;
-    padding: 120px 120px;
-    background-image: url(/city\ break.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.buttons #place_2 {
-    display: inline-block;
-    color: #000000;
     font-size: x-large;
-    margin-top: 800px;
-    margin-left: 50px;
-    text-align: center;
-    padding: 120px 120px;
-    background-image: url(/beach\ break.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.buttons #place_3 {
-    display: inline-block;
-    color: #000000;
-    font-size: x-large;
-    margin-top: 800px;
-    margin-left: 50px;
-    text-align: center;
-    padding: 120px 120px;
-    background-image: url(/family\ friendly.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.buttons #place_4 {
-    display: inline-block;
-    color: #000000;
-    font-size: x-large;
-    margin-top: 50px;
-    margin-left: 50px;
-    text-align: center;
-    padding: 120px 120px;
-    background-image: url(/tourist\ atttractions.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.buttons #place_5 {
-    display: inline-block;
-    color: #000000;
-    font-size: x-large;
-    margin-top: 50px;
-    margin-left: 50px;
-    text-align: center;
-    padding: 120px 120px;
-    background-image: url(/group\ holidays.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.buttons #place_6 {
-    display: inline-block;
-    color: #000000;
-    font-size: x-large;
-    text-decoration: solid;
-    margin-top: 50px;
-    margin-left: 50px;
-    text-align: center;
-    padding: 120px 120px;
     margin-bottom: 50px;
-    background-image: url(/skiing.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 50px;
 }
 
 .form {
@@ -187,10 +124,10 @@ h3 {
 .image-container {
     display: flex; /* Use Flexbox layout */
     justify-content: space-between; /* Space the images evenly */
-  }
-  .image-container img { /* Set the width of each image to 50% of the container */
+}
+.image-container img { /* Set the width of each image to 50% of the container */
     height:20%
     object-fit: cover;
     border-radius: 0%;
     margin: 10px;
-  }
+}
