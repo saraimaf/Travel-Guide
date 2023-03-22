@@ -2,65 +2,29 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #1DD1F5;
-}
+    background-color: #90d9f7;
 
-header {
-    background-color: #1DD1F5;
-}
-
-nav {
-    background-color: #337FEA;
 }
 
 ul {
     list-style: none;
-    color: #000000;
 }
 
 /*nav bar*/
-#nav_bar {
-    float: right;
-    text-decoration-color: #ffffff;
-    text-decoration: none;
+.navbar {
+    background-color: #65b0cd;
+    font-size: 20px;
+    margin-bottom: 1px;
 }
 
-#nav_bar li {
-    display: inline-block;
-    padding: 8px;
-}
-
-#nav-links {
-    color: #000;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-li.nav-links a:hover {
-    text-decoration: solid;
-}
-
-#Places {
-    color: #000;
-}
-
-.travel-guide #logo {
-    text-align: left;
-    display: block;
-    margin: 0 auto;
-    clear: both;
-}
 
 /* just adding some styling to make the carousel more depressing */
 #carouselExampleIndicators {
     transform: translate(-50%, -50%);
     position: absolute;
-    top: 50%;
+    top: 43%;
     left: 50%;
-    width: 60%;
+    width: 100%;
     height: 70%;
 }
 
@@ -88,8 +52,6 @@ img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
-
-
 .buttons #place_1 {
     display: inline-block;
     color: #000000;
@@ -98,6 +60,7 @@ img:hover {
     margin-left: 50px;
     text-align: center;
     padding: 120px 120px;
+    background-image: url(/city\ break.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -110,6 +73,7 @@ img:hover {
     margin-left: 50px;
     text-align: center;
     padding: 120px 120px;
+    background-image: url(/beach\ break.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -122,6 +86,7 @@ img:hover {
     margin-left: 50px;
     text-align: center;
     padding: 120px 120px;
+    background-image: url(/family\ friendly.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -134,6 +99,7 @@ img:hover {
     margin-left: 50px;
     text-align: center;
     padding: 120px 120px;
+    background-image: url(/tourist\ atttractions.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -146,6 +112,7 @@ img:hover {
     margin-left: 50px;
     text-align: center;
     padding: 120px 120px;
+    background-image: url(/group\ holidays.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -160,6 +127,7 @@ img:hover {
     text-align: center;
     padding: 120px 120px;
     margin-bottom: 50px;
+    background-image: url(/skiing.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -190,9 +158,6 @@ footer {
     float: right; 
 }
 
-footer {
-    background-color: #91D7F2;
-}
 footer li {
     display: inline-block;
 }
@@ -216,3 +181,16 @@ h3 {
     text-align: center;
     font-style: italic;
 }
+
+/* about page profiles*/
+
+.image-container {
+    display: flex; /* Use Flexbox layout */
+    justify-content: space-between; /* Space the images evenly */
+  }
+  .image-container img { /* Set the width of each image to 50% of the container */
+    height:20%
+    object-fit: cover;
+    border-radius: 0%;
+    margin: 10px;
+  }
