@@ -37,11 +37,9 @@
                     </ul>
                   </div>
                 </div>
-              </nav>
-
-            
-
+            </nav>
         </header>
+
         <h1>My experience in Cyprus</h1>
 
             <p>I recently went to Ayia Napa, Cyprus with a group of girlfriends. It was a short but very fun trip. <br/h>
@@ -50,10 +48,51 @@
             <h3>Where to stay</h3>
             <p>When I went my and my friend stayed at the Sunprime Hotel, this hotel was really good and modern.<br/h>
             They have a lot of options for breakfast, including a full english
-            Each block had it's own pool, and each room was a studio so if you like cooking then I would highly recommend!<br/h>
-            <img src="#" alt="Images of sunprime">
-            
-            When exploring Ayia Napa we noticed that a lot of the accomodations where within walking distance and were very similar structure.<br/h>
+            Each block had it's own pool, and each room was a studio so if you like cooking then I would highly recommend!</p>
+
+            <div id="carouselCyprusIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselCyprusIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselCyprusIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselCyprusIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./cyprus.jpg" class="d-block w-100" alt="Image1" width="200" height="200">
+                    <div id="image1-1-info" class="carousel-caption d-none d-md-block">
+                        <h5>Venice, Italy</h5>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./iceland.jpg" class="d-block w-100" alt="Image2" width="200" height="200">
+                    <div id="image2-2-info" class="carousel-caption d-none d-md-block">
+                        <h5>Reykjavik, Iceland</h5>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./greece.jpg" class="d-block w-100" alt="Image3" width="200" height="200">
+                    <div id="image3-3-info" class="carousel-caption d-none d-md-block">
+                        <h5>Santorini, Greece</h5>
+                      </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCyprusIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselCyprusIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+              
+              <script src="script.js"></script>
+              <!-- Bootstrap JS -->
+              <!-- JavaScript Bundle with Popper -->
+              <!-- this allows us to use the carousel -->
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+             
+            <p>When exploring Ayia Napa we noticed that a lot of the accomodations where within walking distance and were very similar structure.<br/h>
             So here is a list of other accomodations you may consider:</p>
 
              <table>
@@ -64,7 +103,7 @@
                     </tr>
                 </thead>
 
-                <tbody>
+                <tbody id="table-body">
                     <tr>
                         <td>Zoi</td>
                         <td>Anthea Hotel Apartment</td>
@@ -79,6 +118,7 @@
                     </tr>
                 </tbody>
              </table>
+
             <h3>Things to do</h3>
             <ul>
                 <li>Go on a jeep tour</li>
