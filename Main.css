@@ -9,56 +9,28 @@ ul {
 }
 
 /*nav bar*/
-#nav_bar {
-    float: right;
+.navbar {
+    background-color: #65b0cd;
+    font-size: 20px;
+    margin-bottom: 1px;
 }
 
-#nav_bar li {
-    display: inline-block;
-    padding: 8px;
+#container-fluid:hover {
+    box-shadow: 0 0 2px 1px #000000;
 }
 
-#nav-links {
-    color: #404040;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-li.nav-links a:hover {
-    box-shadow: 1px 1px 5px #999;
-}
-
-.travel-guide #logo {
-    text-align: left;
-    display: block;
-    margin: 0 auto;
-    clear: both;
-}
-
-/* just adding some styling to make the carousel more depressing */
+/* just adding some styling to the carousel */
 #carouselExampleIndicators {
     transform: translate(-50%, -50%);
     position: absolute;
-    top: 50%;
+    top: 43%;
     left: 50%;
-    width: 60%;
+    width: 100%;
     height: 70%;
 }
 
-h1 {
-    color: #ffffff;
-    text-align: center;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Courier New', Courier, monospace;
-}
 
-h5, p {
+h5 {
     color: white;
     text-shadow: 2px 2px 4px #000000;
 }
@@ -68,52 +40,133 @@ h5, p {
     bottom: 0;
 }
 
-.buttons #place_1 {
-    margin-top: 800px;
-    margin-left: 150px;
-    float: left;
-    text-align: center;
-    padding: 120px 120px;
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
-.buttons #place_2 {
+/*buttons*/
+.buttons {
+    width: 300px;
+    height: 300px;
     margin-top: 800px;
-    margin-left: 200px;
-    text-align: center;
-    padding: 120px 120px;
+    font-size: xx-large;
+    text-decoration: solid;
+    color: #ffffff;
+    margin-bottom: 50px;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 50px;
 }
 
-.buttons #place_3 {
-    margin-top: 800px;
-    margin-left: 150px;
+#France {
+    background-size: cover;
+    background-image: url(/france.jpg);
+    background-position-x: -50px;
+}
+
+#Cyprus {
+    background-size: cover;
+    background-image: url(/cyprus.jpg);
+    background-position-y: -50px;
+}
+
+#Cyprus a:visited {
+    color: inherit;
+    text-decoration-line: none;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.button-container:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/*search box*/
+.form {
+    text-align: left;
+}
+
+.form-search {
+    width: 600px;
+    line-height: 40px;
+    padding: 20px 10px;
+}
+
+.form #form-search {
+    padding: 0px;
+}
+
+/*about the footer*/ 
+footer {
+    background-color: #65b0cd;
+    border-top: solid 2px #000000;
+    border-bottom: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+#socials {
     float: right;
-    text-align: center;
-    padding: 120px 120px;
 }
 
-.buttons #place_4 {
-    margin-top: 50px;
-    margin-left: 150px;
-    float: left;
-    text-align: center;
-    padding: 120px 120px;
+footer li {
+    display: inline-block;
 }
 
-.buttons #place_5 {
-    margin-top: 50px;
-    margin-left: 200px;
-    text-align: center;
-    padding: 120px 120px;
+#footer ul li {
+    display: inline;
+    font-size: 14px;
+    padding: 13px;
 }
 
-.buttons #place_6 {
-    margin-top: 50px;
-    margin-right: 293px;
+footer ul {
     float: right;
-    text-align: center;
-    padding: 120px 120px;
+    padding: 1px;
 }
 
+footer ul a:hover {
+    text-decoration: underline;
+}
 
+h3 {
+    text-align: center;
+    font-style: italic;
+}
 
+/* about page profiles*/
 
+.image-container {
+    display: flex; /* Use Flexbox layout */
+    justify-content: space-between; /* Space the images evenly */
+}
+.image-container img { /* Set the width of each image to 50% of the container */
+    height:20%;
+    object-fit: cover;
+    border-radius: 0%;
+    margin: 10px;
+}
+
+/*Cyprus carousel*/
+#carouselCyprusIndicators {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 70%;
+}
+
+table {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: double;
+}
