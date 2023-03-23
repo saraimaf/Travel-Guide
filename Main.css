@@ -49,19 +49,30 @@ img:hover {
     width: 300px;
     height: 300px;
     margin-top: 800px;
-    font-size: x-large;
+    font-size: xx-large;
+    text-decoration: solid;
+    color: #ffffff;
     margin-bottom: 50px;
     object-fit: cover;
+    background-size: cover;
     border-radius: 50px;
-    background-image: url(/cyprus.jpg);
 }
 
-.buttons #France {
+#France {
+    background-size: cover;
     background-image: url(/france.jpg);
+    background-position-x: -50px;
 }
 
-.buttons #Cyprus {
+#Cyprus {
+    background-size: cover;
     background-image: url(/cyprus.jpg);
+    background-position-y: -50px;
+}
+
+#Cyprus a:visited {
+    color: inherit;
+    text-decoration-line: none;
 }
 
 .button-container {
